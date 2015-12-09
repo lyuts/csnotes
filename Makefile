@@ -5,7 +5,7 @@ MAKEGLOSSARIES=$(TEXLIVE_BIN)/makeglossaries
 BIBTEX=$(TEXLIVE_BIN)/bibtex
 DOCNAME=Book
 
-LOCALTEXINPUTS=$(PWD)/tex
+LOCALTEXINPUTS=$(PWD)/tex:$(PWD)
 
 all:
 	mkdir -p build
